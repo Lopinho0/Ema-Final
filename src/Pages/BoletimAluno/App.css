@@ -1,0 +1,83 @@
+body {
+  background-color: whitesmoke;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.input-group-text {
+  text-decoration: none;
+  display: none;
+}
+
+.btn-secondary {
+  background-color: rgb(74, 145, 112);
+}
+.btn{
+cursor: pointer;
+}
+
+.form-control{
+  border-radius: 20px;
+  font-size: x-large;
+  padding-top: 30px;
+  padding-inline-end: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.containerHeader {
+  position: relative;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  top: 0%;
+  left: 66%;
+  color: black;
+  font-size: larger;
+  height: 230px;
+  width: 853px;
+  }
+
+.tabelaNotas{
+  left: 30%;
+  position: fixed;
+  flex-flow: row wrap;
+  position: fixed;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  top: 40%;
+  
+}
+.row{
+  flex-flow: row wrap;
+}

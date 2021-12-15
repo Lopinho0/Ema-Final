@@ -30,7 +30,7 @@ const NavbarProf = ({ show }) => {
                 </li>
 
                 <li className="sidenavLi">
-                    <Link to="/AppChat" className="active Link">
+                    <Link to="/AppAt" className="active Link">
                         <AiFillSnippets />Atividades
                     </Link>
                 </li>

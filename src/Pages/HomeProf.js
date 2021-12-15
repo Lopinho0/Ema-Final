@@ -16,7 +16,7 @@ const HomeAluno = () =>{
                 </Link>
 
                 <div>
-                <Link to="/AppChat" className="active Link atividades">
+                <Link to="/AppAt" className="active Link atividades">
                     Atividades
                 </Link>
             </div>

@@ -30,7 +30,7 @@ const Navbar = ({ show }) => {
                 </li>
 
                 <li className="sidenavLi">
-                    <Link to="/App" className="active Link">
+                    <Link to="/AppAt" className="active Link">
                         <AiFillSnippets />Atividades
                     </Link>
                 </li>
